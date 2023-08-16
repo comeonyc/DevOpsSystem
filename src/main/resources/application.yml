@@ -1,0 +1,19 @@
+server:
+  port: 8080
+
+#数据库名：mysql，用户名root，密码123456
+spring:
+  spring:
+    application:
+      name: demo01
+  datasource:
+    username: root
+    password: 970825
+    url: jdbc:mysql://localhost:3306/devops_system?useUnicode=true&characterEncoding=UTF-8&useSSL=false&serverTimezone=Asia/Shanghai
+    driver-class-name: com.mysql.cj.jdbc.Driver
+
+
+mybatis-plus:
+  configuration:
+    log-impl: org.apache.ibatis.logging.stdout.StdOutImpl
+
