@@ -3,7 +3,6 @@ package org.devops.service.impl;
 import com.baomidou.mybatisplus.core.conditions.query.QueryWrapper;
 import com.baomidou.mybatisplus.extension.plugins.pagination.Page;
 import com.baomidou.mybatisplus.extension.service.impl.ServiceImpl;
-import org.apache.commons.lang.ArrayUtils;
 import org.devops.dto.DecFaultRecordRequest;
 import org.devops.dto.DecFaultRecordVO;
 import org.devops.dto.base.PageDto;
